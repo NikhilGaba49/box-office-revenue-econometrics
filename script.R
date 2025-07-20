@@ -31,3 +31,22 @@ lower_bound_score=mean(data$audience_score)-qnorm(0.975)*score_standard_error
 upper_bound_score=mean(data$audience_score)+qnorm(0.975)*score_standard_error
 conf_int_audience_score=c(lower_bound_score,upper_bound_score)
 conf_int_audience_score
+
+# Plotting the density function
+plot(density(data$box_office_revenue), main = "Density Function for Box Office Revenue", xlab = "Box Office Revenue ($m)")
+
+# High Budget Variable
+which_high_budget=which(data$movie_budget >= median(data$movie_budget)) # filter rows which are high budget
+high_budget=numeric(length(data$movie_budget)) # create a numeric vector of the same length
+high_budget[which_high_budget] = 1 # assign 1 to the high budget films 
+high_budget
+
+# Plot the densities.
+jpeg("high_budget_vs_low_budget.jpg")
+plot(density(data$box_office_revenue[high_budget==0]), col="blue",lty=1,
+     xlab="Box Office Revenue", ylab="Density",
+     main="Density Functions of High Budget vs Low Budget Movies")
+lines(density(data$box_office_revenue[high_budget==1]), col="red",lty=2)
+legend("topright", legend=c("Low Budget", "High Budget"), col=c("blue","red"), lty=c(1,2))
+
+dev.off() 

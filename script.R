@@ -53,3 +53,22 @@ dev.off()
 
 # Performing a hypothesis test on if the difference in means is 0 for high budget vs low budget.
 t.test(data$box_office_revenue[high_budget==1],data$box_office_revenue[high_budget==0]) 
+
+# Regression Line First
+revenue_budget_reg=lm(box_office_revenue~movie_budget, data=data)
+
+# Plotting a scatterplot and a regression line for revenue and movie budget.
+jpeg("revenue_vs_budget.jpg")
+plot(data$movie_budget,data$box_office_revenue, main = "Box Office Revenue vs Movie Budget", xlab = "Movie Budget ($m)", ylab = "Box Office Revenue ($m)") 
+abline(revenue_budget_reg)
+dev.off()
+
+# First Regression revenue vs budget is already defined
+revenue_budget_reg
+# Second Regression revenue vs audience score.
+revenue_score_reg=lm(box_office_revenue~audience_score, data=data)
+revenue_score_reg
+
+#Test whether or not the the slopes of each regression line is 0 at the 5% level of significance.
+summary(revenue_budget_reg)
+summary(revenue_score_reg)

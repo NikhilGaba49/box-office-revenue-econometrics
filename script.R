@@ -50,3 +50,6 @@ lines(density(data$box_office_revenue[high_budget==1]), col="red",lty=2)
 legend("topright", legend=c("Low Budget", "High Budget"), col=c("blue","red"), lty=c(1,2))
 
 dev.off() 
+
+# Performing a hypothesis test on if the difference in means is 0 for high budget vs low budget.
+t.test(data$box_office_revenue[high_budget==1],data$box_office_revenue[high_budget==0]) 

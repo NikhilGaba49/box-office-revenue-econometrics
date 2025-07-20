@@ -13,7 +13,7 @@ This dataset aims to provide insights into how movie revenues are influenced by 
 
 ---
 
-## Assignment Overview
+## Project Overview
 
 This assignment investigates the relationship between movie box office revenue and two key factors:
 

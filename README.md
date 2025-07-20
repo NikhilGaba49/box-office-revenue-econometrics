@@ -1,4 +1,4 @@
-# box-office-revenue-econometrics
+# Movie Revenue  and Production Cost Analysis
 This project applies econometric techniques to analyze the relationship between movie budgets, audience scores, and box office revenues using a dataset of 250 movies.
 
 ## Dataset Description

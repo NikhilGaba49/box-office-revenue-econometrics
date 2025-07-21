@@ -38,5 +38,5 @@ Using **R** and econometric techniques, we analyzed a dataset of 250 movies to u
 ---
 
 ### Full Report
-For detailed analysis, statistical tables, and visualizations, see **`report.pdf`**.
+For detailed analysis, statistical tables, and visualizations, see **`analytical_report.pdf`**.
 

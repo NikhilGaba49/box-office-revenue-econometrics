@@ -125,7 +125,3 @@ Using multiple regressions for **separate subsamples**:
 This study demonstrates that **movie budgets and audience scores are strong predictors of revenue**, with high-budget films achieving significantly higher box office performance. For studios with limited additional funding, investing in high-budget films provides a greater expected return compared to allocating funds to low-budget films.
 
 ---
-
-*Author: [Your Name]*  
-*Date: [Submission Date]*  
-*Course: [Course Name]*  

@@ -21,7 +21,7 @@ Using **R** and econometric techniques, we analyzed a dataset of 250 movies to u
 
 ## Methods
 
-- **Tools:** R (data wrangling, visualization, econometric analysis)  
+- **Tools:** R (visualization, econometric analysis and OLS Regression)  
 - **Techniques:**  
   - Descriptive statistics & confidence intervals  
   - Hypothesis testing (difference in means)  
@@ -33,8 +33,7 @@ Using **R** and econometric techniques, we analyzed a dataset of 250 movies to u
 ## Files
 
 - **`movie_data.csv`** – Dataset (250 movies)  
-- **`analysis.R`** – All statistical analysis and plots  
-- **`report.pdf`** – Full analytical report with detailed tables and regression output
+- **`analytical_report.pdf`** – Full analytical report with detailed tables and regression output
 
 ---
 

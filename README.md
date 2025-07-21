@@ -1,7 +1,7 @@
 # Movie Revenue and Production Cost Analysis
 
 A data-driven investigation into how **production budgets** and **audience scores** influence **box office revenues**.  
-Using **R** and econometric techniques, I analyzed a dataset of 250 movies to uncover patterns that guide **movie investment decisions**.
+Using **R** and econometric techniques, we analyzed a dataset of 250 movies to uncover patterns that guide **movie investment decisions**.
 
 ---
 

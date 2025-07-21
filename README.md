@@ -39,7 +39,7 @@ The study applies:
 
 ## 3. Key Methods
 
-- **Software:** R (all scripts included in this repository).  
+- **Software:** R (script included in this repository in code_with_dataset folder).  
 - **Statistical techniques:**  
   - Summary statistics and confidence intervals  
   - Hypothesis testing for difference in means  

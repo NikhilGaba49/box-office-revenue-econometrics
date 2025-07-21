@@ -1,3 +1,5 @@
+setwd("C:/Users/Nikhil Gaba/Documents/Internship/GitHub Repositories/box-office-revenue-econometrics/code_with_dataset")
+
 # First,  we need to load the data and packages.
 library(stargazer)
 data=read.csv(file="movie_data.csv")
